@@ -1,7 +1,7 @@
 # Implementação do fatorial 
 
 ## Fatoral iterativo
-''' python 
+```python 
 Exemplo:
 def fatorial(n:int) -> int:
     ''' 
@@ -14,10 +14,12 @@ def fatorial(n:int) -> int:
     res = 1
     for i in range(1, n+1):
         res *= i 
-    return res '''
+    return res
+```
 
-    ## Fatorial recursivo
-    ''' python
+## Fatorial recursivo
+    
+    ```python
     Exemplo:
     def fatorial_rec(n: int) -> int:
     ''' 
@@ -31,4 +33,4 @@ def fatorial(n:int) -> int:
         return 1
     else:
         return n * fatorial_rec(n-1)
-    '''
+    ```
