@@ -19,9 +19,9 @@ def fatorial(n:int) -> int:
 
 ## Fatorial recursivo
     
-    ```python
-    Exemplo:
-    def fatorial_rec(n: int) -> int:
+```python
+Exemplo:
+def fatorial_rec(n: int) -> int:
     ''' 
         algoritmo recursivo para resolver fatorial
         input:
